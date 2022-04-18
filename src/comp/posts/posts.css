@@ -1,0 +1,43 @@
+.posts{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+}
+.postImg{
+    width: 100%;
+    border-radius: 8px;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 8px;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postCat{
+    font-size: 12px;
+    color: bisque;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer; 
+}
+.ppostTitle{
+    font-family: 'Gowun dodum', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.ppostTitle a{
+    text-decoration: none;
+    color: #333;
+}
+.postDate{
+    align-self: flex-end;
+    margin-right: 10px;
+    font-style: italic;
+}
