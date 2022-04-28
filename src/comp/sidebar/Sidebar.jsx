@@ -8,7 +8,7 @@ export default function Sidebar() {
             </span>
             <img src="images/muteall1.jpg" alt="about" />
             <p>
-            이상은 이는 위하여, 작고 천자만홍이 영원히 가치를 쓸쓸하랴? 앞이 곳으로 수 교향악이다.
+            성장하는 애기 개발자
             </p>
         </div>
 

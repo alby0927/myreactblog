@@ -10,11 +10,6 @@ export default function Home() {
         <div className="container home">
             <div className="post">
                  <Posts></Posts>
-                 <Posts></Posts>
-                 <Posts></Posts>
-                 <Posts></Posts>
-                 <Posts></Posts>
-                 <Posts></Posts>
             </div>
             <Sidebar></Sidebar>
         </div>

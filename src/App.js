@@ -1,9 +1,10 @@
 import TopBar from './comp/topbar/TopBar';
 import Home from './pages/home/Home';
 import Detail from './pages/detail/Detail';
-import Write from './pages/form/Write';
-import Settings from './pages/settings/Settings';
-import Login from './pages/login/Login';
+import About from './pages/about/About';
+import Contact from './pages/contact/Contact';
+import Portfolio from './pages/portfolio/Portfolio';
+
 import {
   BrowserRouter,
   Routes,
@@ -20,10 +21,10 @@ function App() {
            <Routes>
                <Route path="/" element={<Home />} />
                <Route path="/detail/*" element={<Detail />} />     
+               <Route path="/About/*" element={<About />} />     
+               <Route path="/Contact/*" element={<Contact />} />     
+               <Route path="/Portfolio/*" element={<Portfolio />} />     
                {/* <Route path="/write/*" element={(user=='wein')? <Write /> : <Home />} />      */}
-               <Route path="/write/*" element={<Write />} />
-               <Route path="/settings" element={user ? <Home /> : <Settings />} />     
-               <Route path="/login" element={user ? <Home /> : <Login /> } />     
            </Routes>
          </BrowserRouter>
   );

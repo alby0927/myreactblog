@@ -1,16 +1,15 @@
-import './about.css'
+import './portfolio.css'
 import Header from '../../comp/header/Header';
 import Posts from '../../comp/posts/Posts';
 import Sidebar from '../../comp/sidebar/Sidebar';
-import AboutDetail from '../../comp/aboutdetail/AboutDetail'
 
-export default function About() {
+export default function Portfolio() {
   return (
       <>
         <Header />
         <div className="container home">
             <div className="post">
-                 <AboutDetail/>
+                 <Posts></Posts>
             </div>
             <Sidebar></Sidebar>
         </div>
